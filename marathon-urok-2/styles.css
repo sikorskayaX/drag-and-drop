@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #fffbfb;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -34,10 +34,10 @@ body {
   height: 66px;
   border: 1px solid #eee;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
-  border-radius: 20px;
+  border-radius: 40px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #afa8a8;
   text-align: center;
   cursor: grab;
 }
@@ -64,7 +64,9 @@ body {
 }
 
 .hold {
-  border: solid 5px #229efd;
+  background: linear-gradient(90deg, #fcdcf5 0%, #dbedfa 100%);
+  color: rgb(165, 56, 175);
+  border-radius: 40px;
 }
 
 .hide {
@@ -72,5 +74,8 @@ body {
 }
 
 .hovered{
-  border: solid 5px #bac1c7;
+  width: 150px;
+  height: 70px;
+  border-radius: 40px;
+  background: #c9c9c9b7
 }
